@@ -1,0 +1,5 @@
+.errorReturn{
+    font-weight: bold;
+    text-transform: capitalize;
+    color: var(--vermelho-erro);
+}

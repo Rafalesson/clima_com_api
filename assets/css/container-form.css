@@ -30,6 +30,11 @@
     cursor: pointer;
 }
 
+#search-button:hover{
+    background-color: var(--azul-hover);
+    color: var(--branco-salmao);
+}
+
 @media screen and (min-width: 0) {
     .container__form-titulo{
         font-size: 1.15rem;

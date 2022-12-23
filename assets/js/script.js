@@ -31,6 +31,8 @@ const toggleLoader = () => {
 
 // Tratamento de erro
 const showErrorMessage = () => {
+  const errorMessage = document.querySelector("#error-message p");
+  errorMessage.innerHTML = `<p>Você digitou <span class='errorReturn'>${cidade.value}</span>. Essa cidade não existe. Tente novamente.</p>`;
   errorMessageContainer.classList.remove("hide");
 };
 
@@ -78,7 +80,7 @@ const showWeather = async (cidade) => {
 
     paisAtual.setAttribute("src", apiCountryURL + data.sys.country);
     
-    // Change bg image
+  // Change bg image
   document.body.style.backgroundImage = `url("${apiUnsplash + cidade}")`;
 
   weatherContainer.classList.remove("hide");
@@ -100,5 +102,3 @@ cidade.addEventListener("keyup", (event) => {
   }
 });
 // Fim dos eventos
-
-
