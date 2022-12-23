@@ -1,5 +1,4 @@
 .container__form-titulo{
-    font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
 }
@@ -30,3 +29,21 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+@media screen and (min-width: 0) {
+    .container__form-titulo{
+        font-size: 1.15rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container__form-titulo{
+        font-size: 1.5rem;
+    }
+}
+
+/* @media screen and (min-width: 1024px) {
+    .container__form-titulo{
+        font-size: 2rem;
+    }
+} */
