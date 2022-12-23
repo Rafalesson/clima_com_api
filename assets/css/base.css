@@ -11,9 +11,11 @@
 }
 
 body{
-    background: var(--preto-claro);
+    background-image: url("../img/bg-weather.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,5 +23,5 @@ body{
 }
 
 .hide{
-    display: none;
+    display: none;  
 }

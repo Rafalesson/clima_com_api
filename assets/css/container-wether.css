@@ -1,12 +1,9 @@
-.container__wether{
+
+#container__wether{
     border-top: 1px solid var(--branco-salmao);
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    height: 40vh;
 }
 
 .wether__h2{

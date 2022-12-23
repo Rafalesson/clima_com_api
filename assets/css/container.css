@@ -4,5 +4,23 @@
     padding: 2rem;
     color: var(--branco-salmao);
     border-radius: 1rem;
-    width: 35vw;
+}
+
+@media screen and (min-width: 0) {
+    .container{
+        width: 100%;
+        margin: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container{
+        width: 30%;
+    }
 }

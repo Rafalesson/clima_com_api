@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="./assets/css/container.css">
     <link rel="stylesheet" href="./assets/css/container-form.css">
     <link rel="stylesheet" href="./assets/css/container-wether.css">
+    <link rel="stylesheet" href="./assets/css/loader.css">
     <!--Fim CSS-->
 
     <!--JS-->
@@ -58,7 +59,7 @@
       </div>
       <!--Fim Container Form-->
 
-      <div class="container__wether">
+      <div id="container__wether" class="hide">
         <h2 class="wether__h2">
           <i class="fa-solid fa-location-dot"></i>
           <span class="wether__h2-cidade" id="city"></span>
@@ -72,7 +73,7 @@
 
         <div class="descricao">
             <p class="descricao__text"></p>
-            <img src="http://openweathermap.org/img/wn/01d.png" alt="Condições do Tempo" class="descricao__icon" />
+            <img src="" alt="Condições do Tempo" class="descricao__icon" />
         </div>
         <!--Fim Descricao-->
 
@@ -90,6 +91,14 @@
         <!--Fim Detalhe-->
       </div>
       <!--Fim Wether-->
+
+      <div id="error-message" class="hide">
+        <p>Não foi possível encontrar o clima de uma cidade com este nome.</p>
+      </div>
+
+      <div id="loader" class="hide">
+        <i class="fa-solid fa-spinner"></i>
+      </div>
     </section>
     <!--Fim Container-->
   </body>
