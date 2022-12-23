@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!--Meta Tags-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fim Meta Tags-->
+
+    <!--Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Fim Google Font-->
+
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!--Fim Font Awesome-->
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/container.css">
+    <link rel="stylesheet" href="./assets/css/container-form.css">
+    <link rel="stylesheet" href="./assets/css/container-wether.css">
+    <!--Fim CSS-->
+
+    <!--JS-->
+    <script src="./assets/js/script.js" defer></script>
+    <!--Fim JS-->
+    <title>Clima Agora</title>
+  </head>
+  <body>
+    <section class="container">
+
+      <div class="container__form">
+        <h2 class="container__form-titulo">
+            Confira o clima de uma cidade:
+        </h2>
+
+        <div class="form__input-container">
+          <input type="text" placeholder="Digite uma cidade:" id="city-input" />
+
+          <button id="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+        <!--Fim Form Input Container-->
+      </div>
+      <!--Fim Container Form-->
+
+      <div class="container__wether">
+        <h2 class="wether__h2">
+          <i class="fa-solid fa-location-dot"></i>
+          <span class="wether__h2-cidade" id="city"></span>
+          <img src="" crossorigin="anonymous" alt="Bandeira do País" class="wether__h2-bandeira" id="country"/>
+        </h2>
+
+        <p class="temperatura">
+            <span class="temperatura__text"></span>
+            <i class="fa-solid fa-thermometer"></i>
+        </p>
+
+        <div class="descricao">
+            <p class="descricao__text"></p>
+            <img src="http://openweathermap.org/img/wn/01d.png" alt="Condições do Tempo" class="descricao__icon" />
+        </div>
+        <!--Fim Descricao-->
+
+        <div class="detalhe">
+            <p class="detalhe__umidade">
+                <i class="fa-solid fa-droplet"></i>
+                <span></span>
+            </p>
+
+            <p class="detalhe__vento">
+                <i class="fa-solid fa-wind"></i>
+                <span></span>
+            </p>
+        </div>
+        <!--Fim Detalhe-->
+      </div>
+      <!--Fim Wether-->
+    </section>
+    <!--Fim Container-->
+  </body>
+</html>

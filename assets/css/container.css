@@ -1,0 +1,8 @@
+.container{
+    background-color: var(--azul-bg);
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 8px;
+    padding: 2rem;
+    color: var(--branco-salmao);
+    border-radius: 1rem;
+    width: 35vw;
+}

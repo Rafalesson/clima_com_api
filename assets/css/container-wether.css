@@ -1,0 +1,54 @@
+.container__wether{
+    border-top: 1px solid var(--branco-salmao);
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 40vh;
+}
+
+.wether__h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .6rem;
+}
+
+.wether__h2-cidade{
+    font-size: 1.5rem;
+    margin: 0 .5rem;
+    font-weight: bold;
+}
+
+.wether__h2-bandeira{
+    height: 2rem;
+}
+
+.wether__h2 i, .temperatura i{
+    font-size: 1.5rem;
+    margin: 0 .5rem;
+}
+
+.temperatura, .descricao, .detalhe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperatura__text{
+    font-weight: 400;
+}
+
+.descricao__text{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.detalhe__umidade{
+    border-right: 1px solid var(--branco-salmao);
+    margin: .6rem;
+    padding: .6rem;
+}
+

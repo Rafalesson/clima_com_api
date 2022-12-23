@@ -1,0 +1,25 @@
+:root{
+    --branco-salmao: #fff1e3;
+    --preto-claro: #303030;
+    --azul-bg: #5c54ed;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--preto-claro);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hide{
+    display: none;
+}
